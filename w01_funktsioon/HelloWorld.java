@@ -65,6 +65,10 @@ public class HelloWorld {
 
         String name = name();
         System.out.println(name);
+
+        int numberTwo = 5;
+        
+        double numberThree = 3.4;
     }
 
     static String name(){
