@@ -69,12 +69,7 @@ public class BigDatabase {
 
             }
 
-            System.out.println("There are " + wordsArray.size() + " one to ten letter words in this file");
-            System.out.println("There are " + uniqueWordsArray.size() + " also unique one to ten letter words in this file");
-            System.out.println(wordsArray);
-            System.out.println(uniqueWordsArray);
-            System.out.println("Number of words in file: " + howManyWords);
-            System.out.println(uniqueWordsArray.size() + " Unique one to ten letter words");
+            
             b.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -111,6 +106,13 @@ public class BigDatabase {
 
         }
         System.out.println(wordsArray.size() + " non unique one to ten letter words");
+
+        System.out.println("There are " + wordsArray.size() + " one to ten letter words in this file");
+            System.out.println("There are " + uniqueWordsArray.size() + " also unique one to ten letter words in this file");
+            System.out.println(wordsArray);
+            System.out.println(uniqueWordsArray);
+            System.out.println("Number of words in file: " + howManyWords);
+            System.out.println(uniqueWordsArray.size() + " Unique one to ten letter words");
 
     }
 
